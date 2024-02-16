@@ -1,0 +1,36 @@
+Hello everyone and welcome to COMP2521 for 24T1!!
+
+My name is Harry, and I'm a fourth year studying Computer Science and Science (maths)!
+I will be joined by Callum, who is your lab assistant.
+
+This course is a step up from COMP1511, where we focus on
+    ** how to write programs that scale **
+
+
+
+Admin stuff:
+    - Course e-mail: cs2521@cse.unsw.edu.au
+    - Course forum
+    - Tutorials
+    - Labs
+    - Quizzes
+    - Assignments
+    - Final exam
+
+
+Other nice resources:
+    - Hayden Smith's lectures are pretty popular
+    - I like CS50's Data Structures and Algorithms lectures
+    - Style/sanitizers guide!
+
+
+Icebreaker!
+Let's go around the classroom and say:
+    - Name, year/degree, and the hardest thing for you in COMP1511
+
+Strings: 3
+Linked Lists: 2
+Pointers: 10
+Memory: 5
+Arrays: 1
+Structs: 1

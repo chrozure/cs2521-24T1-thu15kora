@@ -6,7 +6,14 @@ struct node {
 };
 
 int main(void) {
-	struct node n;
-	n.value = 42;
-	n.next = NULL;
+	// struct node n;
+	// n.value = 42;
+	// n.next = NULL;
+
+	struct node *n = malloc(sizeof(struct node));
+	n->value = 42;
+	// (*n).value = 42;
+	n->next = NULL;
+
+	free(n);
 }
