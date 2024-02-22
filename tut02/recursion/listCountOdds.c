@@ -34,6 +34,10 @@ void testListCountOdds(int values[], int size) {
 }
 
 int listCountOdds(struct node *list) {
-    // TODO
-    return 0;
+
+    // Base case - list is empty
+    if (list == NULL) return 0;
+
+    // Recursive case - node and the rest of the list
+    return abs((list->value % 2)) + listCountOdds(list->next);
 }

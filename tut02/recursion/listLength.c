@@ -32,6 +32,10 @@ void testListLength(int values[], int size) {
 }
 
 int listLength(struct node *list) {
-    // TODO
-    return 0;
+
+    // Base case - empty list
+    if (list == NULL) return 0;
+
+    // Recursvie case - node + rest of list
+    return 1 + listLength(list->next);
 }

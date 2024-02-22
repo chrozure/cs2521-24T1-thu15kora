@@ -30,3 +30,13 @@ bool twoSum(int arr[], int size, int target) {
     // TODO
     return false;
 }
+
+
+/*
+hasTwoSum(A, v):
+	Input:  array A[0..n - 1] of integers
+	        integer v
+	Output: true if A contains two elements that sum to v, false otherwise
+
+
+*/

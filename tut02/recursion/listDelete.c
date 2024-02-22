@@ -39,6 +39,20 @@ void testListDelete(int values[], int size, int valueToDelete) {
 }
 
 struct node *listDelete(struct node *list, int value) {
-    // TODO
+    // Base case - list is empty
+    if (list == NULL) {
+        return NULL;
+    }
+
+    // Recursvie case - value matches with current node
+    if (list->value == value) {
+        struct node *headOfRestOfList = listDelete(list->next, value);
+        free(list);
+        return headOfRestOfList;
+    }
+
+    // Recursive case - value does not match with current node
+    struct node *headOfRestOfList = listDelete(list->next, value);
+    list->next = headOfRestOfList;
     return list;
 }
