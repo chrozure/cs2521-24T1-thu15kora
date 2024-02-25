@@ -41,12 +41,12 @@ Linked lists and recursion:
         - An empty list
         - A node, and the rest of the list
 
-
+    - This makes it a perfect way to practise some recursion!
 
 
 Analysis of algorithms
 What is big-O?
-    - A way of quantifatively describing how fast or slow an algorithm runs at scale
+    - A way of quantitatively describing how fast or slow an algorithm runs at scale
 
 How do you calculate it?
     - e.g. T(n) = 3n^2 + 2n + 4 * log_2(n)
