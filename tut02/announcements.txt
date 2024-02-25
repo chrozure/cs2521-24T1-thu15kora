@@ -19,10 +19,10 @@ So, what is recursion?
     and then leaving the rest of it as a smaller, almost identical "subproblem"
 
     - fact(3) = 3 * 2 * 1
-    - fact(3) = 3 * fact(2)
     - The iterative approach is to have a variable that initially stores
     the value 1, and then multiply it by the consecutive integers
 
+    - fact(3) = 3 * fact(2)
     - The recursvie approach is to notice that fact(n) = n * fact(n - 1)
     The other thing we need is a base case fact(0) = 1
 
@@ -46,13 +46,13 @@ Linked lists and recursion:
 
 Analysis of algorithms
 What is big-O?
-    -
+    - A way of quantifatively describing how fast or slow an algorithm runs at scale
 
 How do you calculate it?
-    - e.g. T(n) = 3n^2 + 2n - 4 * log(n)
+    - e.g. T(n) = 3n^2 + 2n + 4 * log_2(n)
 
     1. Remove all coefficients
-    -> n^2 + n - log(n)
+    -> n^2 + n + log(n)
 
     2. Take the term with the highest order
     -> O(n^2)

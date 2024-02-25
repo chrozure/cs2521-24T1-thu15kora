@@ -44,11 +44,12 @@ struct node *listDelete(struct node *list, int value) {
         return NULL;
     }
 
-    // Recursvie case - value matches with current node
+    // Base case - value matches with current node
     if (list->value == value) {
-        struct node *headOfRestOfList = listDelete(list->next, value);
+        struct node *restOfList = l->next;
         free(list);
-        return headOfRestOfList;
+        // Since we are only deleting the first node, we don't recursively call
+        return restOfList;
     }
 
     // Recursive case - value does not match with current node
