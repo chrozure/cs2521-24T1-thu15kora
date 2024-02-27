@@ -1,0 +1,43 @@
+Let's compare the performance of bubble sort vs insertion sort!
+
+Bubble Sort:
+    - iterate through the array
+    - if you find two adjacent numbers that are in the wrong order:
+        - swap them around
+    - repeat until the array is sorted
+
+    - Best case:
+    - Worst case:
+
+Insertion sort:
+    - split the array into a sorted and unsorted part
+    - iterate through the array, and at each element:
+        - insert it into the sorted side by shifting it 1 at a time
+
+    - Best case:
+    - Worst case:
+
+
+
+1. Sorted input
+Bubble sort:
+    1 2 3 4 5
+
+Insertion sort:
+    1 2 3 4 5
+
+
+2. Reverse-sorted
+Bubble sort:
+    5 4 3 2 1
+
+Insertion sort:
+    5 4 3 2 1
+
+
+3. Sorted, except the first and last elements are swapped
+Bubble sort:
+    5 2 3 4 1
+
+Insertion sort:
+    5 2 3 4 1
