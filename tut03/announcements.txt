@@ -1,0 +1,19 @@
+Welcome to week 3!
+
+In this tutorial we will be mainly focusing on sorting algorithms,
+but I would like to go through a question on time complexity
+since I did not have much time last week and it's quite important.
+
+Admin stuff:
+    - This week is the last week you can get lab01 marked!
+    - This week's lab is an interesting one - there is no coding but you
+        will instead need to write up a report
+    - So, lab03 is fully handmarked, and you have until week 5 to get it handmarked
+        but you MUST submit it by next Monday!
+    - You can also do lab03 in pairs!
+
+
+Sorting algorithms:
+    - Here is a cool video which helps you visualise and
+        maybe even audiolize sorting algorithms:
+        https://www.youtube.com/watch?v=kPRA0W1kECg
