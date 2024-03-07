@@ -42,13 +42,39 @@ int main(void) {
 ///////////////////////////////////////////////////////
 
 int bstCountOdds(struct node *t) {
-    // TODO
-    return 0;
+    // Base case - empty tree
+    if (t == NULL) {
+        return 0;
+    }
+
+    int leftSubtreeOdds = bstCountOdds(t->left);
+    int rightSubtreeOdds = bstCountOdds(t->right);
+
+    // Recursive case - root has odd value
+    if (t->value % 2 == 1) {
+        return 1 + leftSubtreeOdds + rightSubtreeOdds;
+    }
+
+    // Recursive case - root has even value
+    return leftSubtreeOdds + rightSubtreeOdds;
 }
 
 int bstCountInternal(struct node *t) {
-    // TODO
-    return 0;
+    // Base case - empty tree
+    if (t == NULL) {
+        return 0;
+    }
+
+    // Base case - left and right are both empty
+    if (t->left == NULL && t->right == NULL) {
+        return 0;
+    }
+
+    int leftInternal = bstCountInternal(t->left);
+    int rightInternal = bstCountInternal(t->right);
+
+    // Recursive case - internal node
+    return 1 + leftInternal + rightInternal;
 }
 
 int bstNodeLevel(struct node *t, int key) {

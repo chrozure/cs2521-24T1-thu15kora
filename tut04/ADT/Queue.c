@@ -16,10 +16,21 @@ Queue QueueNew(void) {
 }
 
 void QueueEnqueue(Queue q, int item) {
-	// TODO
+	StackPush(q->s1, item);
 }
 
 int QueueDequeue(Queue q) {
-	// TODO
-	return 0;
+	while (StackSize(q->s1) > 0) {
+		int topValue = StackPop(q->s1);
+		StackPush(q->s2, topValue);
+	}
+
+	int dequeueValue = StackPop(q->s2);
+
+	while (StackSize(q->s2) > 0) {
+		int topValue = StackPop(q->s2);
+		StackPush(q->s1, topValue);
+	}
+
+	return dequeueValue;
 }

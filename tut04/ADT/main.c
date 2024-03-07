@@ -11,6 +11,7 @@ int main(void) {
     QueueEnqueue(q, 1);
     QueueEnqueue(q, 4);
 
+    // Should dequeue 3 1
     printf("Dequeued: %d\n", QueueDequeue(q));
     printf("Dequeued: %d\n\n", QueueDequeue(q));
 
@@ -18,6 +19,7 @@ int main(void) {
     QueueEnqueue(q, 2);
     QueueEnqueue(q, 0);
 
+    // Should dequeue 4 2 0
     printf("Dequeued: %d\n", QueueDequeue(q));
     printf("Dequeued: %d\n", QueueDequeue(q));
     printf("Dequeued: %d\n", QueueDequeue(q));
