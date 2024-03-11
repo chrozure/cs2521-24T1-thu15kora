@@ -1,0 +1,14 @@
+a. How many edges does it have?
+
+
+b. How many cycles are there in the graph?
+
+
+c. How many cliques are there in the graph?
+
+
+d. What is the degree of each vertex?
+
+
+e. How many edges in the longest path from 5 to 8?
+
