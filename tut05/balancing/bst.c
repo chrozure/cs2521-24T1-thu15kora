@@ -34,7 +34,7 @@ struct node *bstInsert(struct node *t, int val) {
 		t->left = bstInsert(t->left, val);
 	} else if (val > t->value) {
 		t->right = bstInsert(t->right, val);
-	} else { // (val == t->value)
+	} else {  // (val == t->value)
 		/* don't insert duplicates */;
 	}
 	return t;
@@ -53,20 +53,21 @@ static struct node *newNode(int val) {
 	return new;
 }
 
-// Helper Functions
-
 struct node *rotateRight(struct node *root) {
-    if (root == NULL || root->left == NULL) return root;
-        struct node *newRoot = root->left;
-        root->left = newRoot->right;
-        newRoot->right = root;
-    return newRoot;
+	if (root == NULL || root->left == NULL)
+		return root;
+	struct node *newRoot = root->left;
+	root->left = newRoot->right;
+	newRoot->right = root;
+	return newRoot;
 }
 
 struct node *rotateLeft(struct node *root) {
-    if (root == NULL || root->right == NULL) return root;
-        struct node *newRoot = root->right;
-        root->right = newRoot->left;
-        newRoot->left = root;
-    return newRoot;
+	if (root == NULL || root->right == NULL)
+
+		return root;
+	struct node *newRoot = root->right;
+	root->right = newRoot->left;
+	newRoot->left = root;
+	return newRoot;
 }

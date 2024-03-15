@@ -1,0 +1,67 @@
+Only a few days until flexi week!
+
+This week we will be looking at balancing BSTs,
+AVL trees and introducing graphs!
+
+Balancing BSTs will be important for those wanting to
+go beyond task 3 for the assignment, and your lab
+this week will be using graphs to make a budget Facebook!
+
+
+Admin:
+    - There is handmarking to be done for
+        lab03, lab04 AND lab05
+    - This is also the last tutorial before assignment 1
+        is due, so make sure to ask all your questions today,
+        or post them on the forum :)
+
+
+
+
+
+Graphs:
+    - Graphs are a another new data type!
+    - Graphs consist of vertices (nodes) and edges
+        which connect the vertices
+    - They are a more general version of trees, and
+        can be used to represent any sort of relationship
+        between things
+    - e.g. Facebook, Google Maps, Structure of atoms in molecules
+
+    - There are some important properties we can consider:
+        - directed vs undirected
+        - weighted vs unweighted
+
+    - There are three implementations of graphs in C:
+        - Adjacency matrix
+        - Adjacency list
+        - Array of edges
+
+
+
+Assignment 1 tips / Q&A:
+    - Slight correction from last week - you can use the
+        testSet.c file to make your own assertion-based tests.
+        There are some provided for you but they are very simple.
+
+    - You are also allowed to make your own helper functions,
+        but you should put the keyword "static" in front of them
+
+    - Use clang-format for quick style fix!
+
+    - If you are struggling to meet time complexity requirements,
+        here is a general tip: in computer science, there is
+        usually a trade-off between time taken and memory used.
+        So, if you need to make something faster, consider using
+        more memory and storing more data!
+
+    - For part 2: a small shortcut which you learn in
+        Discrete Maths is that if A ⊆ B and B ⊆ A, then A = B.
+
+    - bool SetEquals(Set a, Set b) {
+        return SetSubset(a, b) && SetSubset(b, a);
+    }
+
+    - For task 2, there is no time complexity requirement, but you need
+        to analyze the time complexity of your own solutions
+
