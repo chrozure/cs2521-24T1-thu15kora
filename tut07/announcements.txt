@@ -1,0 +1,17 @@
+Hope you all had a good flexi week :)
+
+This week we will be looking at some graph traversals and problems.
+
+The depth-first search algorithm is arguably one of the most important
+algorithms in all of computer science, and both this week's lab and
+assignment 2 will involve a lot of graph traversals.
+
+Admin:
+    - You can get handmarking done for lab04, lab05 and lab07
+    - Assignment 2 has been released, and the lecture
+        today gives an overview of what is involved
+
+
+
+Visualization of BFS: https://www.youtube.com/watch?v=x-VTfcmrLEQ
+Visualization of DFS: https://www.youtube.com/watch?v=NUgMa5coCoE

@@ -1,7 +1,8 @@
 cc[] = {0, 0, 0, 1, 1, 1, 0, 0, 0, 1}
 
 If d is removed:
-    -
+    - The cc array will stay the same
 
 If b is removed:
-    -
+    - We will get a third connected component, and the cc array will look like
+        cc[] = {0, 0, 2, 1, 1, 1, 2, 0, 2, 1}

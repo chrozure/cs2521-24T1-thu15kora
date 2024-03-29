@@ -1,8 +1,8 @@
 #include <stdbool.h>
 
 struct edge {
-    int from;
-    int to;
+    int v;
+    int w;
 };
 
 #include "Graph.h"
