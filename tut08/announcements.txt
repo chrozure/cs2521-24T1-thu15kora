@@ -1,0 +1,16 @@
+Welcome to week 8, hope you all had a good Easter!
+
+This week is the last week on graphs. We will be doing
+some more graph traversals, Dijkstra's Algorithm
+and then look at Minimum Spanning Trees
+
+I will also spend a little bit of time looking through assignment 2.
+
+Admin:
+    - As always, there is handmarking to be done for
+        labs 5, 7, and 8
+    - The automarking for assignment 1 has been completed.
+        IMPORTANT: Please check your auto-mark, and check
+        if you have lost marks due to efficiency.
+        If you did lose some marks and you are sure of it,
+        create a private forum post

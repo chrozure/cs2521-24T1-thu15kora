@@ -11,3 +11,24 @@ dijkstraSSSP(G, src):
     remove v from vSet
     for each edge (v, w, weight) in G:
         relax along (v, w weight)
+
+Initialisation:
+vSet = { 0, 1, 2, 3, 4, 5, 6, 7 }
+dist = [  0,  ∞,  ∞,  ∞,  ∞,  ∞,  ∞,  ∞ ]
+pred = [ -1, -1, -1, -1, -1, -1, -1, -1 ]
+
+
+Final state:
+vSet = { }
+dist = [  0,  5,  4,  5,  7,  7, 10, 13 ]
+pred = [ -1,  0,  0,  2,  2,  1,  5,  5 ]
+
+
+0: distance =  0, shortest path: 0
+1: distance =  5, shortest path: 0-1
+2: distance =  4, shortest path: 0-2
+3: distance =  5, shortest path: 0-2-3
+4: distance =  7, shortest path: 0-2-4
+5: distance =  7, shortest path: 0-1-5
+6: distance = 10, shortest path: 0-1-5-6
+7: distance = 13, shortest path: 0-1-5-7

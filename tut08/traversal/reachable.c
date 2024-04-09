@@ -7,7 +7,7 @@ typedef struct vertex *Vertex;
 Set reachable(Graph g, Vertex src);
 
 int main(void) {
-
+    return 0;
 }
 
 
