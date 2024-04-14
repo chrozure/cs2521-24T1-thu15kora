@@ -1,0 +1,27 @@
+Welcome to week 9!
+
+This week's tutorial and lab is about hash maps.
+
+They are an example of an associative data structure,
+and are one of the most important data structures
+in technical interviews.
+
+Many languages have some sort of hash map
+implemented in it. In COMP2521, we will explore
+how they are used and implemented underneath the hood.
+
+Admin:
+    - This week's lab is the last one! And there is no
+        handmarking component.
+    - Handmarking for assignment 1 is also underway.
+        Most of this class's handmarking has been done.
+        If you have any questions, please feel free to ask
+        me during the lab or send me an e-mail.
+
+marks = [ 80, 10, 50, 60, 70 ]
+marks[10] =
+
+marks = {
+    "z1234567": 50,
+    "z5983242": 60,
+}
