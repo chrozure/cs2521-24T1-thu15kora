@@ -1,0 +1,80 @@
+COMP2521 is almost over!
+
+The tutorial content is on heaps and tries, but there
+are a lot of other important things to mention.
+
+
+
+MyExperience:
+    - At 50% response rate, and every 5% after:
+        We will reveal the topic and mark value of a randomly chosen exam question
+        Topic/mark value of one questions revealed at 50%, 55%, 60%, 65%e, ...
+
+    - At 85% completion rate, Kevin will also shave his head :O
+
+    - I have some snacks this week, which I will pass out to people who complete it
+
+
+Admin:
+    - Assignment 1 marking is finished and your marks should be out.
+        Please let me or Callum know if you have any issues.
+
+    - Assignment 2 is due tomorrow at 8pm, good luck :)
+
+    - The lab today will be used for revision, any final handmarking
+        and also the exam demo.
+
+    - MyExperience is out!
+
+
+
+
+Final exam:
+    - In the lab today, you have the opportunity to do
+        do an exam demo, where you experience the exam environment.
+
+    - Who wants to do it?
+
+
+
+Heaps:
+    - Heaps are an efficient data structure used to implement priority queues
+
+    - You would have seen priority queues before with Dijkstra's algorithm
+        or Prim's algorithm. They are like queues, except when you dequeue,
+        it returns the number with the most priority, instead of the first value.
+
+    - In this tutorial, we will be looking at max heaps. They have 2 properties:
+        - Heap property: the value in each node is greater than or equal to
+            the values in its children
+
+        - Completeness property: All levels of the tree must be fully filled, and
+            we fill them going left to right.
+
+
+
+Revision Kahoot:
+    - https://create.kahoot.it/share/comp2521-revision/9b46d3b1-ef58-47b6-8c27-55878d71f610
+
+
+
+Q&A:
+    - Yes, you should put comments before the functions
+        with the functions they give you
+
+    - Yes, you still need to say where you got your code from
+
+    - What do you expect for an 'average' student?
+
+    - The sample exam is the same as every other term
+
+    - There WILL be solutions released at the end of this week.
+
+    - Double pass condition:
+        - You have to get an overall mark of 50%
+        - You have to get at least 40% on the final exam
+
+
+Thank you everyone for the great term! Good luck with the exam,
+and I wish you all the best in the future :)
+

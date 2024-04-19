@@ -1,8 +1,10 @@
 What are the two cases when deleting aword from a trie?
 How is each case handled?
 
-Case 1:
+1. The word ends at an internal node
+    - The finishing (red) node is simply changed into a non-finishing (black) node.
 
-
-Case 2:
-
+2. The word ends at a leaf node
+    - The finishing (red) node is unlinked from its parent and removed (freed).
+        If the parent of that node is a non-finishing leaf node, it is also
+        removed from the tree. Repeat until we reach a finishing node or a non-leaf node.
